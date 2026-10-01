@@ -8,22 +8,29 @@
 <body>
     <h1>Sign Up Page</h1>
     <form action="/action_page.php">
-        <label for="fName">First Name: </label>
+        <label for="fName"><b>First Name: </b></label>
         <input type="text" id="fName" placeholder="Enter the First name: ">
         <br><br>
-        <label for="lName">Last Name: </label>
+        <label for="lName"><b>Last Name: </b></label>
         <input type="text" id="lName" placeholder="Enter the Last name: ">
         <br><br>
-        <label for="uName">UserName: </label>
+        <label for="uName"><b>User Name: </b></label>
         <input type="text" id="uName" placeholder="Enter the UserName: ">
         <br><br>
-        <label for="Email">Email: </label>
+        <label for="gender">
+            <b>Gender: </b>
+            <input type="radio" value="Male"><b>Male</b>
+            <input type="radio" value="Female"><b>Female</b>
+            <input type="radio" value="Other"><b>Prefer Not to Say</b>
+        </label>
+        <br><br>
+        <label for="Email"><b>Email: </b></label>
         <input type="email" placeholder="Enter your Email: " id="Email">
         <br><br>
-        <label for="pass">Password: </label>
+        <label for="pass"><b>Password: </b></label>
         <input type="password" id="pass" placeholder="Create your password: ">
         <br><br>
-        <label for="Cpass">Confirm Password: </label>
+        <label for="Cpass"><b>Confirm Password: </b></label>
         <input type="password" id="Cpass" placeholder="Confirm your password: ">
         <br>
         <input type="submit" value="SignUp">
